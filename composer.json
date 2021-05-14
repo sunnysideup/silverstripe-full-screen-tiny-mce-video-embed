@@ -1,0 +1,33 @@
+{
+    "name": "sunnysideup/full-screen-tiny-mce-video-embed",
+    "type": "silverstripe-vendormodule",
+    "description": "Allow Fullscreen TinyMCE video embed",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "vimeo",
+        "video",
+        "youtube",
+        "fullscreen",
+        "full screen",
+        "short codes",
+        "TinyMCE"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-core": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\FullScreenTinyMceVideoEmbed\\": "src/"
+        }
+    }
+}
