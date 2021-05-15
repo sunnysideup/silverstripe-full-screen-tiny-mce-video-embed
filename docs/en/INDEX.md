@@ -1,10 +1,1 @@
-use like this:
-
-```php
-MyDataObject extends MyDataObject
-{
-    use Sunnysideup\FullScreenTinyMceVideoEmbed\FixBooleanSearch;
-
-
-}
-```
+This module adds `allowFullScreen` to your YouTube iframe tag by overriding the standard html   
