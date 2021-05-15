@@ -14,6 +14,6 @@ class EmbedShortcodeProviderFullScreen extends EmbedShortcodeProvider
     {
         $return = parent::handle_shortcode($arguments, $content, $parser, $shortcode, $extra);
         $return = str_replace('allowTransparency="true"' , 'allowTransparency="true"  allowFullscreen="true"', $return);
-        return $return;
+        return str_replace('allowTransparency="true"' , 'loading="lazy" allowTransparency="true"', $return);
     }
 }
