@@ -11,3 +11,8 @@ SilverStripe\Core\Injector\Injector:
 ```
 
 There is no need to turn on anything.
+
+
+# credits
+
+A huge thank you to [Lukas](https://github.com/lerni) for providing the idea of the lazy loading.
