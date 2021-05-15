@@ -6,10 +6,9 @@ use SilverStripe\View\Shortcodes\EmbedShortcodeProvider;
 
 class EmbedShortcodeProviderFullScreen extends EmbedShortcodeProvider
 {
-    public static function embedForTemplate($embed, $arguments) {
-        return parent::embedForTemplate($embed, $arguments);
-        return $return;
-    }
+    // public static function embedForTemplate($embed, $arguments) {
+    //     return parent::embedForTemplate($embed, $arguments);
+    // }
 
     public static function handle_shortcode($arguments, $content, $parser, $shortcode, $extra = array())
     {

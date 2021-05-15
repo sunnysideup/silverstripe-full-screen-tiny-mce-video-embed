@@ -1,0 +1,7 @@
+---
+Name: EmbedShortcodeProviderFullScreen
+---
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\View\Shortcodes\EmbedShortcodeProvider:
+    class: Sunnysideup\FullScreenTinyMceVideoEmbed\View\ShortCodes\EmbedShortcodeProviderFullScreen
