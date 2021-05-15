@@ -1,4 +1,4 @@
-# Contributing to full-screen-tiny-mce-video-embed
+# Contributing to video-embed-extras
 
 Please read the
 [generic write up for contributing](https://docs.silverstripe.org/en/4.0/contributing/)

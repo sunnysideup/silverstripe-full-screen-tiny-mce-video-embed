@@ -1,10 +1,10 @@
 <?php
 
-namespace Sunnysideup\FullScreenTinyMceVideoEmbed\View\ShortCodes;
+namespace Sunnysideup\VideoEmbedExtras\View\ShortCodes;
 
 use SilverStripe\View\Shortcodes\EmbedShortcodeProvider;
 
-class EmbedShortcodeProviderFullScreen extends EmbedShortcodeProvider
+class VideoExtras extends EmbedShortcodeProvider
 {
     // public static function embedForTemplate($embed, $arguments) {
     //     return parent::embedForTemplate($embed, $arguments);

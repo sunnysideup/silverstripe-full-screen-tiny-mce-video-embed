@@ -1,7 +1,7 @@
 ---
-Name: EmbedShortcodeProviderFullScreen
+Name: VideoExtras
 ---
 
 SilverStripe\Core\Injector\Injector:
   SilverStripe\View\Shortcodes\EmbedShortcodeProvider:
-    class: Sunnysideup\FullScreenTinyMceVideoEmbed\View\ShortCodes\EmbedShortcodeProviderFullScreen
+    class: Sunnysideup\VideoEmbedExtras\View\ShortCodes\VideoExtras

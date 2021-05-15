@@ -1,7 +1,7 @@
 {
-    "name": "sunnysideup/full-screen-tiny-mce-video-embed",
+    "name": "sunnysideup/video-embed-extras",
     "type": "silverstripe-vendormodule",
-    "description": "Allow Fullscreen TinyMCE video embed",
+    "description": "Allow Fullscreen TinyMCE video embed, lazy loading and other features",
     "keywords": [
         "Silverstripe-CMS",
         "CMS",
@@ -11,6 +11,8 @@
         "youtube",
         "fullscreen",
         "full screen",
+        "lazy loading",
+        "speed",
         "short codes",
         "TinyMCE"
     ],
@@ -27,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sunnysideup\\FullScreenTinyMceVideoEmbed\\": "src/"
+            "Sunnysideup\\VideoEmbedExtras\\": "src/"
         }
     }
 }

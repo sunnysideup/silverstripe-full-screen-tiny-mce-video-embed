@@ -1,7 +1,7 @@
 <?php
 
-use Sunnysideup\FullScreenTinyMceVideoEmbed\View\ShortCodes\EmbedShortcodeProviderFullScreen;
+use Sunnysideup\VideoEmbedExtras\View\ShortCodes\VideoExtras;
 use SilverStripe\View\Parsers\ShortcodeParser;
 
 ShortcodeParser::get('default')
-    ->register('embed', [EmbedShortcodeProviderFullScreen::class, 'handle_shortcode']);
+    ->register('embed', [VideoExtras::class, 'handle_shortcode']);
