@@ -1,4 +1,4 @@
-This module adds `allowFullScreen` attribute to your YouTube iframe tag by overriding the standard html.
+This module adds `allowFullScreen` attribute to your YouTube and Vimeo iframe tag created in your tinyMCE editor by overriding the standard html.
 
 It also adds lazy loading attribute: `loading="lazy"`, see [web.dev/iframe-lazy-loading](https://web.dev/iframe-lazy-loading/). 
 
