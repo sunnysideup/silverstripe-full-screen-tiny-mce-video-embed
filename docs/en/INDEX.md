@@ -1,6 +1,6 @@
-This module adds `allowFullScreen=true` to your YouTube iframe tag by overriding the standard html.
+This module adds `allowFullScreen` attribute to your YouTube iframe tag by overriding the standard html.
 
-It also adds lazy loading.
+It also adds lazy loading attribute: `loading="lazy"`, see [web.dev/iframe-lazy-loading](https://web.dev/iframe-lazy-loading/). 
 
 It does so by swapping out the default class doing this work, like this (already added to module):
 
@@ -9,8 +9,6 @@ SilverStripe\Core\Injector\Injector:
   SilverStripe\View\Shortcodes\EmbedShortcodeProvider:
     class: Sunnysideup\VideoEmbedExtras\View\ShortCodes\VideoExtras
 ```
-
-The `VideoExtras` class adds `allowfullscreen` attribute and `loading="lazy"`
 
 There is no need to turn on anything.
 
