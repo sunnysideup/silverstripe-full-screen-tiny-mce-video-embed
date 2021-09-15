@@ -12,8 +12,10 @@ class VideoExtras extends EmbedShortcodeProvider
 
     public static function handle_shortcode($arguments, $content, $parser, $shortcode, $extra = array())
     {
-        $return = parent::handle_shortcode($arguments, $content, $parser, $shortcode, $extra);
-        $return = str_replace('allowTransparency="true"' , 'allowTransparency="true"  allowFullscreen="true"', $return);
-        return str_replace('allowTransparency="true"' , 'loading="lazy" allowTransparency="true"', $return);
+        $string = parent::handle_shortcode($arguments, $content, $parser, $shortcode, $extra);
+        $string = str_replace('></iframe' , ' loading="lazy"></iframe', $string);
+        $string = str_replace('></iframe' , ' allowfullscreen></iframe', $string);
+
+        return $string;
     }
 }
